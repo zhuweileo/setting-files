@@ -1,0 +1,24 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+    "window.zoomLevel": 0,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "workbench.iconTheme": "vs-seti",
+    "workbench.colorTheme": "Monokai",
+    "editor.fontSize": 20,
+    //在vue中使用eslint
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "vue"
+    ],
+    "eslint.options": {
+        "plugins": ["html"]
+    },
+    //在vue文件中可以使用emmet
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "files.autoSave": "afterDelay"
+}
